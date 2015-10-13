@@ -1,0 +1,290 @@
+@import "http://fonts.googleapis.com/css?family=PT+Serif:700&subset=latin,cyrillic";
+@import "http://fonts.googleapis.com/css?family=Lora:400,700,400italic&subset=latin,cyrillic";
+@import "http://webfonts.ru/import/engine.css";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html {
+  font-size: 12pt;
+  text-size-adjust: none;
+  line-height: 1.61em;
+  word-wrap: break-word;
+  font-family: "Lora", serif;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+  text-rendering: optimizeLegibility;
+  font-family: "PT Serif", serif;
+  color: #fff;
+}
+
+header h1 span {
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-family: "PT Serif", serif;
+  color: #fff;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+p, span, a {
+  font-family: "Lora", serif;
+  text-decoration: none;
+  color: #333;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#header {
+  position: relative;
+  height: 340px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+}
+
+#header #blue_out {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 44, 90, 0.2);
+  background-image: url(../img/narfu.png);
+  background-repeat: no-repeat;
+  background-size: auto 18%;
+  background-position: 50% 50px;
+}
+
+#header #blue_out #headline {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#header #blue_out h1 {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#header #blue_out h1 p {
+  color: white;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#header #blue_out h1 span {
+  margin-top: 80px;
+  display: block;
+  height: 60px;
+  position: relative;
+}
+
+#header #blue_out h1 span:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+  opacity: 0.4;
+}
+
+#main {
+  position: relative;
+}
+
+#playbill {
+  padding: 60px 0;
+}
+
+#playbill ul li {
+  margin: 40px 20px;
+  vertical-align: top;
+  display: inline-block;
+  width: 250px;
+  height: 450px;
+  border-top: 4px solid #aec6df;
+  border-bottom: 1px dotted #aec6df;
+}
+
+#playbill ul li .thumb {
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#to_reg {
+  text-align: center;
+  padding: 60px;
+  color: #fff;
+  background-image: url(../img/to_reg.jpg);
+}
+
+#to_reg a {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#to_reg a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#blocks {
+  color: #333;
+}
+
+#blocks h3 {
+  color: #002c5a;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  display: block;
+  height: 68px;
+}
+
+#blocks ul {
+  font-size: 0;
+}
+
+#blocks ul li {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+  width: 449px;
+  height: 399px;
+  border-bottom: 1px dotted #aec6df;
+  position: relative;
+}
+
+#blocks ul li div {
+  padding: 30px 0;
+}
+
+#blocks ul li a {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+  padding-left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #1791e0;
+  transition: color 0.2s ease-in-out;
+}
+
+#blocks ul li a:hover {
+  color: #0f6daa;
+}
+
+#blocks ul li:nth-child(odd) {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+#blocks ul li:nth-child(even) {
+  border-left: 1px dotted #aec6df;
+  padding-left: 40px;
+  padding-right: 0;
+}
+
+#blocks ul li:nth-child(even) a {
+  right: 0;
+}
+
+.main_menu {
+  z-index: 10;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main_menu ul {
+  text-align: center;
+  font-size: 0px;
+}
+
+.main_menu ul li {
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 10px 35px;
+}
+
+.main_menu ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.main_menu ul li a:hover {
+  color: #dbe2ea;
+}

@@ -1,0 +1,32 @@
+// Базовые стили текста.
+
+html {
+	font-size: 12pt;
+	text-size-adjust: none;
+	line-height: 1.61em;
+	word-wrap: break-word;
+	font-family: $f-text;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+	text-rendering: optimizeLegibility;
+	font-family: $f-headings;
+	color: $c-white;
+}
+
+header {
+	h1 span {
+		color: $c-white;
+		text-rendering: optimizeLegibility;
+		font-family: $f-headings;
+		color: $c-white;
+		font-size: 4.5rem;
+		text-align: center;
+	}
+}
+
+p, span, a {
+	font-family: $f-text;
+	text-decoration: none;
+	color: $c-text;
+}
