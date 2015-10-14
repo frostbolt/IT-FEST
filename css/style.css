@@ -75,6 +75,114 @@ p, span, a {
   color: #333;
 }
 
+main > .wrapper {
+  padding: 60px 0;
+}
+
+main > .wrapper h1, main > .wrapper h2, main > .wrapper h3, main > .wrapper h4, main > .wrapper h5, main > .wrapper h6 {
+  color: #002c5a;
+  line-height: 1.61em;
+}
+
+main > .wrapper h1 {
+  font-size: 2.2rem;
+}
+
+main > .wrapper h2 {
+  font-size: 2rem;
+}
+
+main > .wrapper h3 {
+  font-size: 1.8rem;
+}
+
+main > .wrapper h4 {
+  font-size: 1.6rem;
+}
+
+main > .wrapper h5 {
+  font-size: 1.4rem;
+}
+
+main > .wrapper h6 {
+  font-size: 1.2rem;
+}
+
+main > .wrapper hr {
+  font-size: 0;
+  margin: 20px 0;
+  border-color: #002c5a;
+}
+
+main > .wrapper p {
+  padding: 6px 0;
+}
+
+main > .wrapper b, main > .wrapper strong {
+  font-weight: 600;
+}
+
+main > .wrapper em {
+  font-style: italic;
+}
+
+main > .wrapper ol {
+  padding-left: 30px;
+  list-style-type: decimal;
+}
+
+main > .wrapper img {
+  margin: 30px 0;
+  max-width: 100%;
+}
+
+main > .wrapper input[type="text"], main > .wrapper input[type="password"], main > .wrapper textarea {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  border: 1px solid #002c5a;
+  background-color: #f9f9f9;
+}
+
+main > .wrapper textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+main > .wrapper table {
+  margin: 30px 0;
+  width: 100%;
+  border-top: 4px solid #aec6df;
+  border-bottom: 1px dotted #aec6df;
+}
+
+main > .wrapper table th {
+  background-color: #f9f9f9;
+  padding: 10px 5px;
+  font-weight: 600;
+}
+
+main > .wrapper table tr + tr {
+  border-top: 1px solid #f9f9f9;
+}
+
+main > .wrapper table td {
+  padding: 5px;
+}
+
+main > .wrapper table td + td {
+  border-left: 1px solid #f9f9f9;
+}
+
+main > .wrapper a {
+  color: #1791e0;
+}
+
+main > .wrapper a:hover {
+  color: #0f6daa;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
